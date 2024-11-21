@@ -18,8 +18,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: ${{ premshtlr }}
-        password: ${{ Premarcot97 }}
+        username: ${{ secrets.premshtlr }}
+        password: ${{ secrets.Premarcot97 }}
 
     # Step 3: Build and push Docker image
     - name: Build and Push Docker Image
