@@ -16,7 +16,4 @@ This project demonstrates the deployment of a Python Flask web application using
 - **CI/CD**: GitHub Actions
 - **Version Control**: Git, GitHub
 
-## How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/prem9797/flask-app-deployment.git
+
